@@ -28,7 +28,13 @@ const displayPhones = phones => {
 
     })
 }
+// handle search button
+function handleSearch(){
+    const searchField = document.getElementById('input-field');
+    const searchValue = searchField.value;
+    loadPhone(searchValue)
+}
 
 
 
-loadPhone();
+// loadPhone();
